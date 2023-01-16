@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from 'axios';
 
 const SendData = (props) => {
-    const [apiData, setApiData] = useState({userid:""});
+    const [apiData, setApiData] = useState({productid:""});
     
     const deleteStd = (event) => {
         event.preventDefault();

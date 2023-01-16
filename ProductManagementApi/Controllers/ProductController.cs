@@ -4,6 +4,7 @@ using ProductManagementApi.Model;
 namespace ProductController;
 using ProductManagementApi.DAL;
 
+
 [ApiController]
 [Route("api/[controller]")]
 public class ProductController : ControllerBase

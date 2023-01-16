@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const DisplayData = (props) => {
     const [apiData, setApiData] = useState([]);
+    
     useEffect(
         () => {
             axios.get('http://localhost:5006/api/product')
