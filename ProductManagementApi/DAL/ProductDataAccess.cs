@@ -104,7 +104,7 @@ public class ProductsDataAccess{
         try
         {
             con.Open();
-            string query = "delete from products where id =" + id;
+            string query = "delete from products where productid =" + id;
             MySqlCommand command = new MySqlCommand(query, con);
             command.ExecuteNonQuery();
             con.Close();
